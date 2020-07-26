@@ -1,6 +1,6 @@
 #include <iostream>
 #include <cstdlib>
-#include "TicTacToe.h"
+#include "../include/TicTacToe.h"
 
 using namespace std;
 
@@ -23,7 +23,8 @@ int main()
 
         //increase _count here
         _count++;
-
+        
+        //for windows, you can use "clear" in *nix.
         //clear previous screen
         system("cls");
 

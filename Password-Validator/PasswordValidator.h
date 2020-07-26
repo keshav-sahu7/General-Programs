@@ -27,4 +27,4 @@ public:
 };
 } /* namespace km */
 
-#endif /* PASSWORDVALIDATOR_H_ */
+#endif /* KM_PASSWORDVALIDATOR_H_ */

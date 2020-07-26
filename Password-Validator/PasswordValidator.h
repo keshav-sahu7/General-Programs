@@ -5,12 +5,12 @@
  *      Author: admin
  */
 
-#ifndef KS_PASSWORDVALIDATOR_H_
-#define KS_PASSWORDVALIDATOR_H_
+#ifndef KM_PASSWORDVALIDATOR_H_
+#define KM_PASSWORDVALIDATOR_H_
 
 #include <iostream>
 
-namespace KS {
+namespace km {
 class Password{
 private:
 	unsigned short min,max;
@@ -25,6 +25,6 @@ public:
 	void setMaxLength(short Ml);
 	void setConstantLength(short cl);
 };
-} /* namespace KS */
+} /* namespace km */
 
 #endif /* PASSWORDVALIDATOR_H_ */

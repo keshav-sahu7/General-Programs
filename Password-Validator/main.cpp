@@ -5,7 +5,7 @@ using namespace std;
 
 int main()
 {
-    KS::Password p1;
+    KM::Password p1;
     string str;
     cout<<"Enter a password!"<<endl;
     cin>>str;

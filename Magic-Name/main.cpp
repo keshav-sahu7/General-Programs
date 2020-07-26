@@ -2,6 +2,7 @@
 #include <cstring>
 #include <cctype>
 #include <cstdlib>
+using namespace std;
 
 void print(char c)
 {
@@ -112,6 +113,6 @@ int main()
     int len = strlen(name);
     printf("View the magic\n\n\n");
     print(name,len);
-    std::system("pause");
+    system("pause");
     return 0;
 }

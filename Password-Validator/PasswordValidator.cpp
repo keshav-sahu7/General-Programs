@@ -2,12 +2,12 @@
  * PasswordValidator.cpp
  *
  *  Created on: 09-Sep-2019
- *      Author: admin
+ *      Author: Keshav Sahu
  */
 
-#include "..\include\PasswordValidator.h"
+#include "PasswordValidator.h"
 
-namespace KS {
+namespace km {
 
 Password::Password(){
 	min = 6;
@@ -85,4 +85,4 @@ void Password::setConstantLength(short cl){
 	min = max = cl;
 }
 
-} /* namespace KS */
+} /* namespace km */

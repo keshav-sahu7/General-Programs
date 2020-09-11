@@ -84,7 +84,6 @@ int main()
 	cout<<"series   : "<<getSeries(lb,ub,expression)<<endl;
 	cout<<"Solution : "<<evaluate(expression,lb,ub)<<endl;
 
-	fflush(stdin);
 	getchar();
 	return 0;
 }

@@ -114,7 +114,7 @@ int main()
 {
     char name[20];
     printf("Enter Your Name\n");
-    gets(name);
+    scanf("%[^\n]",name);
     
     int len = strlen(name);
     printf("View the magic\n\n\n");

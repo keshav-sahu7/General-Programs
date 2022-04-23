@@ -3,7 +3,9 @@
 // Author      : Keshav
 // Version     : 1.0
 // Copyright   : Its' opensource free to use
-// Description : Hello World in C++, Ansi-style
+// Description : Guessing game in C++, predict a number,
+//               if you arelucky, you'll win.
+//       Ansi-style
 //============================================================================
 
 #include <iostream>
